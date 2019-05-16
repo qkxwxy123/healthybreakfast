@@ -1,0 +1,43 @@
+1.搜索
+数据库查询操作
+2.热搜搭配
+数据库查询操作
+3.推荐搭配
+数据库查询操作
+4.个人中心（微信登陆？）
+数据库查询操作
+地址：数据库的增加改动
+我的订单：数据库查询（下订单时数据库添加 ， 添加时调用地址）
+5.订单
+数据库查询操作 ， 存图片url ， 图片存云服务器 ， 配送费 ， 月销 ， 水果（早餐）来源） ， 与之匹配的套餐
+
+数据库：healthyBreakfast
+表：
+1.fruitAndBreakfast
+	1) id
+	2) sourceArea
+	3) salesVolume
+	4) pictures
+	5) fees
+2.setMeal
+	1) id
+	2) content
+3.hotMeal
+	1) id
+	2) foodId
+4.OrderForm
+	1) id
+	2) selfId
+	3) location
+	4) pictures
+	5) getTime
+	6) paidMoney
+5.selfLocation
+	1) id
+	2) dayOfWeek
+	3) location
+6.placeAnOrder//orderform添加
+	1) id
+	2) location
+	3) getTime
+	4) foodId

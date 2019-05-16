@@ -1,0 +1,264 @@
+[2019-05-11 21:06:02,646](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-05-11 21:06:21,684](INFO)querySetMeal : 获取参数pageNo...
+[2019-05-11 21:06:21,686](INFO)querySetMeal : 未获得参数pageNo ， 赋值为1
+[2019-05-11 21:06:21,687](INFO)querySetMeal : 未获得参数pageSize ， 赋值为10
+[2019-05-11 21:06:21,698](INFO)querySetMeal : 尝试执行sql语句select * from setmeal limit 0 , 10
+[2019-05-11 21:06:21,699](INFO)querySetMeal : 执行成功,尝试抓取数据
+[2019-05-11 21:06:21,699](INFO)querySetMeal : 抓取成功
+[2019-05-11 21:06:21,709](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:06:21,710](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:06:21,711](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:06:21,713](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:06:21,713](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:06:21,713](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:06:21,715](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:06:21,715](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:06:21,716](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:06:21,717](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:06:21,717](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:06:21,718](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:06:21,719](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 4
+[2019-05-11 21:06:21,719](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:06:21,719](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:06:21,721](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 5
+[2019-05-11 21:06:21,721](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:06:21,721](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:06:21,722](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:06:21,722](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:06:21,723](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:06:21,724](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:06:21,725](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:06:21,725](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:06:21,727](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:06:21,727](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:06:21,728](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:06:21,729](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:06:21,729](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:06:21,730](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:06:21,731](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:06:21,731](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:06:21,731](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:06:21,732](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:06:21,733](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:06:21,733](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:06:21,734](INFO)werkzeug : 127.0.0.1 - - [11/May/2019 21:06:21] "GET /querySetMeal HTTP/1.1" 200 -
+[2019-05-11 21:07:38,819](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-05-11 21:07:43,332](INFO)querySetMeal : 获取参数pageNo...
+[2019-05-11 21:07:43,333](INFO)querySetMeal : 未获得参数pageNo ， 赋值为1
+[2019-05-11 21:07:43,333](INFO)querySetMeal : 未获得参数pageSize ， 赋值为10
+[2019-05-11 21:07:43,335](INFO)querySetMeal : 尝试执行sql语句select * from setmeal limit 0 , 10
+[2019-05-11 21:07:43,336](INFO)querySetMeal : 执行成功,尝试抓取数据
+[2019-05-11 21:07:43,336](INFO)querySetMeal : 抓取成功
+[2019-05-11 21:07:43,338](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:07:43,338](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:07:43,339](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:07:43,341](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:07:43,342](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:07:43,342](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:07:43,344](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:07:43,344](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:07:43,344](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:07:43,346](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:07:43,346](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:07:43,347](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:07:43,348](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 4
+[2019-05-11 21:07:43,349](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:07:43,349](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:07:43,351](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 5
+[2019-05-11 21:07:43,351](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:07:43,352](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:07:43,353](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:07:43,354](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:07:43,354](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:07:43,356](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:07:43,356](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:07:43,357](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:07:43,358](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:07:43,359](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:07:43,359](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:07:43,361](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:07:43,361](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:07:43,362](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:07:43,363](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:07:43,364](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:07:43,364](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:07:43,366](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:07:43,366](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:07:43,367](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:07:43,369](INFO)werkzeug : 127.0.0.1 - - [11/May/2019 21:07:43] "GET /querySetMeal HTTP/1.1" 200 -
+[2019-05-11 21:13:19,103](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-05-11 21:13:23,241](INFO)querySetMeal : 获取参数pageNo...
+[2019-05-11 21:13:23,242](INFO)querySetMeal : 未获得参数pageNo ， 赋值为1
+[2019-05-11 21:13:23,251](INFO)querySetMeal : 未获得参数pageSize ， 赋值为10
+[2019-05-11 21:13:23,253](INFO)querySetMeal : 尝试执行sql语句select * from setmeal limit 0 , 10
+[2019-05-11 21:13:23,253](INFO)querySetMeal : 执行成功,尝试抓取数据
+[2019-05-11 21:13:23,254](INFO)querySetMeal : 抓取成功
+[2019-05-11 21:13:23,256](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:13:23,256](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:13:23,257](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:13:23,259](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:13:23,259](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:13:23,259](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:13:23,261](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:13:23,262](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:13:23,262](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:13:23,264](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:13:23,265](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:13:23,265](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:13:23,267](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 4
+[2019-05-11 21:13:23,268](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:13:23,268](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:13:23,270](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 5
+[2019-05-11 21:13:23,270](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:13:23,271](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:13:23,272](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:13:23,273](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:13:23,273](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:13:23,274](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:13:23,275](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:13:23,275](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:13:23,277](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:13:23,277](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:13:23,278](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:13:23,279](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:13:23,279](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:13:23,279](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:13:23,281](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:13:23,281](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:13:23,281](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:13:23,283](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:13:23,284](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:13:23,284](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:13:23,286](INFO)werkzeug : 127.0.0.1 - - [11/May/2019 21:13:23] "GET /querySetMeal HTTP/1.1" 200 -
+[2019-05-11 21:15:43,271](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-05-11 21:15:43,918](INFO)querySetMeal : 获取参数pageNo...
+[2019-05-11 21:15:43,919](INFO)querySetMeal : 未获得参数pageNo ， 赋值为1
+[2019-05-11 21:15:43,919](INFO)querySetMeal : 未获得参数pageSize ， 赋值为10
+[2019-05-11 21:15:43,921](INFO)querySetMeal : 尝试执行sql语句select * from setmeal limit 0 , 10
+[2019-05-11 21:15:43,921](INFO)querySetMeal : 执行成功,尝试抓取数据
+[2019-05-11 21:15:43,922](INFO)querySetMeal : 抓取成功
+[2019-05-11 21:15:43,924](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:15:43,924](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:15:43,925](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:15:43,926](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:15:43,927](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:15:43,927](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:15:43,928](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:15:43,929](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:15:43,929](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:15:43,933](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:15:43,933](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:15:43,934](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:15:43,935](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 4
+[2019-05-11 21:15:43,936](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:15:43,936](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:15:43,938](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 5
+[2019-05-11 21:15:43,938](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:15:43,939](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:15:43,940](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:15:43,941](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:15:43,941](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:15:43,943](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:15:43,944](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:15:43,944](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:15:43,946](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:15:43,946](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:15:43,947](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:15:43,948](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:15:43,949](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:15:43,949](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:15:43,951](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:15:43,951](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:15:43,951](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:15:43,953](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:15:43,953](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:15:43,953](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:15:43,955](INFO)werkzeug : 127.0.0.1 - - [11/May/2019 21:15:43] "GET /querySetMeal HTTP/1.1" 200 -
+[2019-05-11 21:16:18,113](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-05-11 21:16:20,370](INFO)querySetMeal : 获取参数pageNo...
+[2019-05-11 21:16:20,370](INFO)querySetMeal : 未获得参数pageNo ， 赋值为1
+[2019-05-11 21:16:20,371](INFO)querySetMeal : 未获得参数pageSize ， 赋值为10
+[2019-05-11 21:16:20,373](INFO)querySetMeal : 尝试执行sql语句select * from setmeal limit 0 , 10
+[2019-05-11 21:16:20,373](INFO)querySetMeal : 执行成功,尝试抓取数据
+[2019-05-11 21:16:20,374](INFO)querySetMeal : 抓取成功
+[2019-05-11 21:16:20,375](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:16:20,376](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:16:20,376](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:16:20,378](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:16:20,379](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:16:20,379](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:16:20,381](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:16:20,382](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:16:20,382](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:16:20,385](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:16:20,385](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:16:20,385](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:16:20,388](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 4
+[2019-05-11 21:16:20,388](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:16:20,388](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:16:20,390](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 5
+[2019-05-11 21:16:20,391](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:16:20,391](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:16:20,393](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:16:20,393](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:16:20,394](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:16:20,395](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:16:20,396](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:16:20,396](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:16:20,398](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:16:20,398](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:16:20,399](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:16:20,403](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:16:20,404](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:16:20,404](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:16:20,406](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:16:20,406](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:16:20,406](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:16:20,408](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:16:20,409](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:16:20,409](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:16:20,413](INFO)werkzeug : 127.0.0.1 - - [11/May/2019 21:16:20] "GET /querySetMeal HTTP/1.1" 200 -
+[2019-05-11 21:18:56,029](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-05-11 21:18:57,342](INFO)querySetMeal : 获取参数pageNo...
+[2019-05-11 21:18:57,342](INFO)querySetMeal : 未获得参数pageNo ， 赋值为1
+[2019-05-11 21:18:57,343](INFO)querySetMeal : 未获得参数pageSize ， 赋值为10
+[2019-05-11 21:18:57,345](INFO)querySetMeal : 尝试执行sql语句select * from setmeal limit 0 , 10
+[2019-05-11 21:18:57,345](INFO)querySetMeal : 执行成功,尝试抓取数据
+[2019-05-11 21:18:57,345](INFO)querySetMeal : 抓取成功
+[2019-05-11 21:18:57,348](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:18:57,348](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:18:57,349](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:18:57,350](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:18:57,351](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:18:57,351](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:18:57,353](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:18:57,353](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:18:57,353](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:18:57,355](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:18:57,355](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:18:57,356](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:18:57,357](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 4
+[2019-05-11 21:18:57,358](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:18:57,358](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:18:57,360](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 5
+[2019-05-11 21:18:57,360](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:18:57,360](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:18:57,363](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:18:57,364](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:18:57,364](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:18:57,367](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:18:57,368](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:18:57,368](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:18:57,370](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:18:57,370](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:18:57,370](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:18:57,372](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-05-11 21:18:57,372](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:18:57,373](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:18:57,374](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-05-11 21:18:57,375](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:18:57,375](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:18:57,377](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-05-11 21:18:57,377](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-05-11 21:18:57,378](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-05-11 21:18:57,380](INFO)werkzeug : 127.0.0.1 - - [11/May/2019 21:18:57] "GET /querySetMeal HTTP/1.1" 200 -

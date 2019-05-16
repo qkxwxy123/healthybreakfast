@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: app-conf
+Version: 20181011
+Summary: Application Config
+Home-page: http://github.com/axiros/app_conf
+Author: Axiros GmbH
+Author-email: gk@axiros.com
+License: UNKNOWN
+Download-URL: http://github.com/axiros/app_conf/tarball/
+Keywords: app,config,source code
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Software Development :: Pre-processors
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+Requires-Dist: attrs
+Requires-Dist: structlog
+Requires-Dist: appdirs
+Requires-Dist: colorama
+Provides-Extra: tests
+Requires-Dist: coverage; extra == 'tests'
+Requires-Dist: pytest (>=3.3.0); extra == 'tests'
+
+# app_conf
+
+Application Process Configuration
+
+
+[![Build Status](https://travis-ci.org/axiros/app_conf.svg?branch=master)](https://travis-ci.org/axiros/app_conf)
+[![Coverage Status](https://coveralls.io/repos/github/axiros/app_conf/badge.svg?branch=master)](https://coveralls.io/github/axiros/app_conf?branch=master)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+
+

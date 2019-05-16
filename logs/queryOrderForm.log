@@ -1,0 +1,8 @@
+[2019-04-26 20:29:05,350](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 20:31:19,268](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 20:31:19] "POST /queryOrderForm?code=071HGkn41iyICS1i2qo41xZUm41HGknm HTTP/1.1" 405 -
+[2019-04-26 20:31:29,568](INFO)queryOrderForm : 获得参数code：071HGkn41iyICS1i2qo41xZUm41HGknm
+[2019-04-26 20:31:30,003](INFO)queryOrderForm : 换取openid成功
+[2019-04-26 20:31:30,010](INFO)queryOrderForm : 执行sqlselect * from orderform where openid = 'ogQH25SmMVHvcBInksg7NkNVYTF4'
+[2019-04-26 20:31:30,011](INFO)queryOrderForm : 抓取数据成功
+[2019-04-26 20:31:30,012](INFO)queryOrderForm : 执行成功，返回200
+[2019-04-26 20:31:30,016](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 20:31:30] "GET /queryOrderForm?code=071HGkn41iyICS1i2qo41xZUm41HGknm HTTP/1.1" 200 -

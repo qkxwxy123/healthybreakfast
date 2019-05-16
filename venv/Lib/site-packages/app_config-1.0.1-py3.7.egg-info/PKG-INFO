@@ -1,0 +1,39 @@
+Metadata-Version: 1.1
+Name: app-config
+Version: 1.0.1
+Summary: GBDX App Config
+Home-page: https://github.com/TDG-Platform/app-config
+Author: Various
+Author-email: tdgplatform@digitalglobe.com
+License: UNKNOWN
+Description: =====================
+        Config Provider
+        =====================
+        
+        Released: TBD
+        
+        
+        Introduction
+        ============
+        
+        GBDX Config Provider
+        
+        Installation
+        ============
+        
+        TODO: fill out more
+        blah blah
+        
+        
+        Getting Started with Config Provider
+        =========================================
+        
+        TODO: more documentation
+Keywords: config,gbdx
+Platform: Posix; MacOS X; Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Programming Language :: Python :: 2.7

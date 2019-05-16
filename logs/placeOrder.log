@@ -1,0 +1,166 @@
+[2019-04-25 18:07:14,461](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 18:08:25,594](INFO)werkzeug : 127.0.0.1 - - [25/Apr/2019 18:08:25] "GET /placeOrder?code=1&location=1&getTime=1&foodId=1 HTTP/1.1" 405 -
+[2019-04-25 18:08:29,418](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/placeOrder.py", line 21, in placeOrder
+    Orders = getOpenID.getOpenIdObject(code)
+  File "F:\healthyBreakfast\getOpenID.py", line 9, in __init__
+    self.jscode = code
+NameError: name 'code' is not defined
+[2019-04-25 18:08:29,433](INFO)werkzeug : 127.0.0.1 - - [25/Apr/2019 18:08:29] "POST /placeOrder?code=1&location=1&getTime=1&foodId=1 HTTP/1.1" 500 -
+[2019-04-25 18:08:55,719](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 18:08:58,123](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/placeOrder.py", line 22, in placeOrder
+    thisOrderOpenId = Orders.getOpenId()
+  File "F:\healthyBreakfast\getOpenID.py", line 15, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-25 18:08:58,128](INFO)werkzeug : 127.0.0.1 - - [25/Apr/2019 18:08:58] "POST /placeOrder?code=1&location=1&getTime=1&foodId=1 HTTP/1.1" 500 -
+[2019-04-25 18:09:53,417](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 18:09:56,853](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/placeOrder.py", line 22, in placeOrder
+    thisOrderOpenId = Orders.getOpenId()
+  File "F:\healthyBreakfast\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-25 18:09:56,856](INFO)werkzeug : 127.0.0.1 - - [25/Apr/2019 18:09:56] "POST /placeOrder?code=1&location=1&getTime=1&foodId=1 HTTP/1.1" 500 -
+[2019-04-25 18:10:25,247](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 18:10:25,956](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/placeOrder.py", line 22, in placeOrder
+    thisOrderOpenId = Orders.getOpenId()
+  File "F:\healthyBreakfast\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-25 18:10:25,959](INFO)werkzeug : 127.0.0.1 - - [25/Apr/2019 18:10:25] "POST /placeOrder?code=1&location=1&getTime=1&foodId=1 HTTP/1.1" 500 -
+[2019-04-25 18:13:20,883](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 18:13:23,863](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/placeOrder.py", line 27, in placeOrder
+    sql = "select 1 from orderform where randomnum=%d limit 1;" % random
+TypeError: %d format: a number is required, not module
+[2019-04-25 18:13:23,868](INFO)werkzeug : 127.0.0.1 - - [25/Apr/2019 18:13:23] "POST /placeOrder?code=1&location=1&getTime=1&foodId=1 HTTP/1.1" 500 -
+[2019-04-25 18:13:48,374](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 18:14:57,337](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 18:14:58,932](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-25 18:14:58,935](INFO)werkzeug : 127.0.0.1 - - [25/Apr/2019 18:14:58] "POST /placeOrder?code=1&location=1&getTime=1&foodId=1 HTTP/1.1" 500 -
+[2019-04-25 18:15:23,092](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 18:15:24,632](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-25 18:15:24,635](INFO)werkzeug : 127.0.0.1 - - [25/Apr/2019 18:15:24] "POST /placeOrder?code=1&location=1&getTime=1&foodId=1 HTTP/1.1" 500 -
+[2019-04-25 18:15:52,261](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 18:15:53,573](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-25 18:15:53,576](INFO)werkzeug : 127.0.0.1 - - [25/Apr/2019 18:15:53] "POST /placeOrder?code=1&location=1&getTime=1&foodId=1 HTTP/1.1" 500 -
+[2019-04-25 18:16:16,000](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 18:29:41,803](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 18:29:45,030](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/placeOrder.py", line 22, in placeOrder
+    thisOrderOpenId = Orders.getOpenId()
+  File "F:\healthyBreakfast\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-25 18:29:45,035](INFO)werkzeug : 127.0.0.1 - - [25/Apr/2019 18:29:45] "POST /placeOrder?code=1&location=1&getTime=1&foodId=1 HTTP/1.1" 500 -

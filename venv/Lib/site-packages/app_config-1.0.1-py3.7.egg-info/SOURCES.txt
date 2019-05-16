@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+test.py
+app_config/__init__.py
+app_config/app_config.py
+app_config.egg-info/PKG-INFO
+app_config.egg-info/SOURCES.txt
+app_config.egg-info/dependency_links.txt
+app_config.egg-info/requires.txt
+app_config.egg-info/top_level.txt
+tests/__init__.py
+tests/config_provider_tests.py

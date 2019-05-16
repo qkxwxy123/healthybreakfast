@@ -1,0 +1,368 @@
+[2019-04-28 19:51:43,660](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 19:53:47,356](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 19:53:47] "GET /placeOrder?code=011f7m9h2lQxZA0IJqch2qjw9h2f7m9V&location=31教&getTime=8点&foodId=1 HTTP/1.1" 405 -
+[2019-04-28 19:54:43,783](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 19:54:43] "GET /placeOrder?code=071zvO0R0CGkX5277j3R0ovB0R0zvO07&location=1&getTime=1&foodId=1 HTTP/1.1" 405 -
+[2019-04-28 19:54:58,562](INFO)placeOrder : 获得参数code：021R9DeF1CGFZ60q9ldF1ap1fF1R9De1 location：1 getTime：1 foodId：1
+[2019-04-28 19:54:58,860](INFO)placeOrder : 换取openid成功
+[2019-04-28 19:54:58,861](INFO)placeOrder : 得到随机数：21
+[2019-04-28 19:54:58,861](INFO)placeOrder : 查重...
+[2019-04-28 19:54:58,886](INFO)placeOrder : 未重复，返回
+[2019-04-28 19:54:58,887](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 19:54:58,891](INFO)placeOrder : 尝试下订单
+[2019-04-28 19:54:58,900](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-28 19:54:58,904](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 19:54:58] "POST /placeOrder?code=021R9DeF1CGFZ60q9ldF1ap1fF1R9De1&location=1&getTime=1&foodId=1 HTTP/1.1" 500 -
+[2019-04-28 19:57:14,090](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 19:57:31,389](INFO)placeOrder : 获得参数code：021KiAAQ0Kc3662sazCQ0cYHAQ0KiAAs location：1 getTime：1 foodId：1
+[2019-04-28 19:57:31,702](INFO)placeOrder : 换取openid成功
+[2019-04-28 19:57:31,702](INFO)placeOrder : 得到随机数：2783
+[2019-04-28 19:57:31,702](INFO)placeOrder : 查重...
+[2019-04-28 19:57:31,704](INFO)placeOrder : 未重复，返回
+[2019-04-28 19:57:31,704](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 19:57:31,709](INFO)placeOrder : 尝试下订单
+[2019-04-28 19:57:31,714](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-28 19:57:31,717](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 19:57:31] "POST /placeOrder?code=021KiAAQ0Kc3662sazCQ0cYHAQ0KiAAs&location=1&getTime=1&foodId=1 HTTP/1.1" 500 -
+[2019-04-28 19:58:12,952](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 19:58:23,034](INFO)placeOrder : 获得参数code：021Oc5SK1peQz30wxjRK1IcMRK1Oc5SU location：1 getTime：1 foodId：1
+[2019-04-28 19:58:23,351](INFO)placeOrder : 换取openid成功
+[2019-04-28 19:58:23,352](INFO)placeOrder : 得到随机数：1286
+[2019-04-28 19:58:23,352](INFO)placeOrder : 查重...
+[2019-04-28 19:58:23,354](INFO)placeOrder : 未重复，返回
+[2019-04-28 19:58:23,355](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 19:58:23,361](INFO)placeOrder : 尝试下订单
+[2019-04-28 19:58:23,366](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-28 19:58:23,371](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 19:58:23] "POST /placeOrder?code=021Oc5SK1peQz30wxjRK1IcMRK1Oc5SU&location=1&getTime=1&foodId=1 HTTP/1.1" 500 -
+[2019-04-28 20:00:02,052](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 20:00:13,256](INFO)placeOrder : 获得参数code：011Umk7l0iGoYq1OJK8l0dDb7l0Umk7T location：1 getTime：1 foodId：1
+[2019-04-28 20:00:13,600](INFO)placeOrder : 换取openid成功
+[2019-04-28 20:00:13,600](INFO)placeOrder : 得到随机数：4203
+[2019-04-28 20:00:13,601](INFO)placeOrder : 查重...
+[2019-04-28 20:00:13,604](INFO)placeOrder : 未重复，返回
+[2019-04-28 20:00:13,604](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 20:00:13,610](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values (1 , www.baidu.com , 1 , ogQH25SmMVHvcBInksg7NkNVYTF4 , 4203)
+[2019-04-28 20:00:13,625](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-28 20:00:13,628](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:00:13] "POST /placeOrder?code=011Umk7l0iGoYq1OJK8l0dDb7l0Umk7T&location=1&getTime=1&foodId=1 HTTP/1.1" 500 -
+[2019-04-28 20:01:00,149](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 20:01:08,415](INFO)placeOrder : 获得参数code：081mSG7A0m0mae1Ht68A0eOF7A0mSG7g location：1 getTime：1 foodId：1
+[2019-04-28 20:01:08,754](INFO)placeOrder : 换取openid成功
+[2019-04-28 20:01:08,755](INFO)placeOrder : 得到随机数：8017
+[2019-04-28 20:01:08,755](INFO)placeOrder : 查重...
+[2019-04-28 20:01:08,757](INFO)placeOrder : 未重复，返回
+[2019-04-28 20:01:08,758](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 20:01:08,763](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 8017)
+[2019-04-28 20:01:08,785](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 20:01:08,787](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:01:08] "POST /placeOrder?code=081mSG7A0m0mae1Ht68A0eOF7A0mSG7g&location=1&getTime=1&foodId=1 HTTP/1.1" 200 -
+[2019-04-28 20:43:37,229](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 20:45:35,640](INFO)placeOrder : 获得参数code：001Jwp2R0yZHW52ORJ3R0QVF2R0Jwp2m location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:45:35,981](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/local/placeOrder_1.py", line 24, in placeOrder
+    thisOrderOpenId = Orders.getOpenId()
+  File "F:\healthyBreakfast\local\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-28 20:45:35,987](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:45:35] "POST /placeOrder?code=001Jwp2R0yZHW52ORJ3R0QVF2R0Jwp2m&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 500 -
+[2019-04-28 20:46:34,184](INFO)placeOrder : 获得参数code：021x4JkQ1lWZ621P0rmQ1xsBkQ1x4JkL location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:46:34,538](INFO)placeOrder : 换取openid成功
+[2019-04-28 20:46:34,538](INFO)placeOrder : 得到随机数：8963
+[2019-04-28 20:46:34,538](INFO)placeOrder : 查重...
+[2019-04-28 20:46:34,540](INFO)placeOrder : 未重复，返回
+[2019-04-28 20:46:34,540](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 20:46:34,555](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 8963)
+[2019-04-28 20:46:34,562](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 20:46:34,562](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:46:34] "POST /placeOrder?code=021x4JkQ1lWZ621P0rmQ1xsBkQ1x4JkL&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 20:47:40,411](INFO)placeOrder : 获得参数code：021x4JkQ1lWZ621P0rmQ1xsBkQ1x4JkL location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:47:40,771](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/local/placeOrder_1.py", line 24, in placeOrder
+    thisOrderOpenId = Orders.getOpenId()
+  File "F:\healthyBreakfast\local\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-28 20:47:40,772](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:47:40] "POST /placeOrder?code=021x4JkQ1lWZ621P0rmQ1xsBkQ1x4JkL&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 500 -
+[2019-04-28 20:47:51,309](INFO)placeOrder : 获得参数code：071enTMo0assXk1bkEMo0WDZMo0enTMe location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:47:51,703](INFO)placeOrder : 换取openid成功
+[2019-04-28 20:47:51,704](INFO)placeOrder : 得到随机数：783
+[2019-04-28 20:47:51,704](INFO)placeOrder : 查重...
+[2019-04-28 20:47:51,708](INFO)placeOrder : 未重复，返回
+[2019-04-28 20:47:51,709](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 20:47:51,713](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 783)
+[2019-04-28 20:47:51,729](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 20:47:51,730](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:47:51] "POST /placeOrder?code=071enTMo0assXk1bkEMo0WDZMo0enTMe&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 20:49:20,192](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 20:49:22,737](INFO)placeOrder : 获得参数code：071enTMo0assXk1bkEMo0WDZMo0enTMe location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:49:23,096](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/local/placeOrder_1.py", line 24, in placeOrder
+    thisOrderOpenId = Orders.getOpenId()
+  File "F:\healthyBreakfast\local\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-28 20:49:23,099](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:49:23] "POST /placeOrder?code=071enTMo0assXk1bkEMo0WDZMo0enTMe&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 500 -
+[2019-04-28 20:49:31,214](INFO)placeOrder : 获得参数code：071mlH6J00tNdg29dF4J0pdU6J0mlH6w location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:49:32,256](INFO)placeOrder : 换取openid成功
+[2019-04-28 20:49:32,256](INFO)placeOrder : 得到随机数：5198
+[2019-04-28 20:49:32,257](INFO)placeOrder : 查重...
+[2019-04-28 20:49:32,258](INFO)placeOrder : 未重复，返回
+[2019-04-28 20:49:32,258](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 20:49:32,263](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 5198)
+[2019-04-28 20:49:32,272](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 20:49:32,273](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:49:32] "POST /placeOrder?code=071mlH6J00tNdg29dF4J0pdU6J0mlH6w&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 20:50:53,942](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 20:51:01,787](INFO)placeOrder : 获得参数code：001olqk02DEzWT0903n02NZCk02olqk2 location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:51:02,125](INFO)placeOrder : 换取openid成功
+[2019-04-28 20:51:02,125](INFO)placeOrder : 得到随机数：6611
+[2019-04-28 20:51:02,125](INFO)placeOrder : 查重...
+[2019-04-28 20:51:02,127](INFO)placeOrder : 未重复，返回
+[2019-04-28 20:51:02,128](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 20:51:02,134](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 6611)
+[2019-04-28 20:51:02,141](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 20:51:02,144](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:51:02] "POST /placeOrder?code=001olqk02DEzWT0903n02NZCk02olqk2&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 20:52:05,690](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 20:52:14,093](INFO)placeOrder : 获得参数code：021pbWK80y2QPF1Ek6L808ecL80pbWKl location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:52:14,418](INFO)placeOrder : 换取openid成功
+[2019-04-28 20:52:14,418](INFO)placeOrder : 得到随机数：2149
+[2019-04-28 20:52:14,418](INFO)placeOrder : 查重...
+[2019-04-28 20:52:14,419](INFO)placeOrder : 未重复，返回
+[2019-04-28 20:52:14,420](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 20:52:14,426](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 2149)
+[2019-04-28 20:52:14,435](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 20:52:14,437](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:52:14] "POST /placeOrder?code=021pbWK80y2QPF1Ek6L808ecL80pbWKl&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 20:53:17,357](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 20:53:20,367](INFO)placeOrder : 获得参数code：021pbWK80y2QPF1Ek6L808ecL80pbWKl location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:53:20,707](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/local/placeOrder_1.py", line 24, in placeOrder
+    thisOrderOpenId = Orders.getOpenId()
+  File "F:\healthyBreakfast\local\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-28 20:53:20,711](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:53:20] "POST /placeOrder?code=021pbWK80y2QPF1Ek6L808ecL80pbWKl&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 500 -
+[2019-04-28 20:53:28,240](INFO)placeOrder : 获得参数code：001OmArC0Oes2i2lpHqC0MiIrC0OmArB location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:53:28,534](INFO)placeOrder : 换取openid成功
+[2019-04-28 20:53:28,534](INFO)placeOrder : 得到随机数：7727
+[2019-04-28 20:53:28,534](INFO)placeOrder : 查重...
+[2019-04-28 20:53:28,536](INFO)placeOrder : 未重复，返回
+[2019-04-28 20:53:28,537](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 20:53:28,542](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 7727)
+[2019-04-28 20:53:28,551](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 20:53:28,552](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:53:28] "POST /placeOrder?code=001OmArC0Oes2i2lpHqC0MiIrC0OmArB&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 20:57:34,225](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 20:57:42,163](INFO)placeOrder : 获得参数code：061Leb240EfubK1li9Z308b8240Leb2E location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:57:42,564](INFO)placeOrder : 换取openid成功
+[2019-04-28 20:57:42,564](INFO)placeOrder : 得到随机数：5390
+[2019-04-28 20:57:42,565](INFO)placeOrder : 查重...
+[2019-04-28 20:57:42,566](INFO)placeOrder : 未重复，返回
+[2019-04-28 20:57:42,567](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 20:57:42,573](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 5390)
+[2019-04-28 20:57:42,581](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 20:57:42,583](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:57:42] "POST /placeOrder?code=061Leb240EfubK1li9Z308b8240Leb2E&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 20:57:57,823](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 20:58:04,405](INFO)placeOrder : 获得参数code：011eNT611DDjQX10gB511VtB611eNT6 location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:58:04,671](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/local/placeOrder_1.py", line 24, in placeOrder
+    thisOrderOpenId = Orders.getOpenId()
+  File "F:\healthyBreakfast\local\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-28 20:58:04,673](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:58:04] "POST /placeOrder?code=011eNT611DDjQX10gB511VtB611eNT6&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 500 -
+[2019-04-28 20:58:24,454](INFO)placeOrder : 获得参数code：011eNT611DDjQX10gB511VtB611eNT6- location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:58:24,777](INFO)placeOrder : 换取openid成功
+[2019-04-28 20:58:24,778](INFO)placeOrder : 得到随机数：8370
+[2019-04-28 20:58:24,778](INFO)placeOrder : 查重...
+[2019-04-28 20:58:24,780](INFO)placeOrder : 未重复，返回
+[2019-04-28 20:58:24,780](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 20:58:24,786](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 8370)
+[2019-04-28 20:58:24,799](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 20:58:24,800](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:58:24] "POST /placeOrder?code=011eNT611DDjQX10gB511VtB611eNT6-&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 20:59:37,424](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 20:59:46,623](INFO)placeOrder : 获得参数code：061PsKoO0pLaU32tT6sO0PsnoO0PsKoV location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 20:59:46,993](INFO)placeOrder : 换取openid成功
+[2019-04-28 20:59:46,993](INFO)placeOrder : 得到随机数：849
+[2019-04-28 20:59:46,993](INFO)placeOrder : 查重...
+[2019-04-28 20:59:46,995](INFO)placeOrder : 未重复，返回
+[2019-04-28 20:59:46,996](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 20:59:47,000](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 849)
+[2019-04-28 20:59:47,007](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 20:59:47,008](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 20:59:47] "POST /placeOrder?code=061PsKoO0pLaU32tT6sO0PsnoO0PsKoV&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 21:01:09,577](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 21:01:15,567](INFO)placeOrder : 获得参数code：081t05rg1Wahjt0cMStg1NvWqg1t05rC location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 21:01:15,952](INFO)placeOrder : 换取openid成功
+[2019-04-28 21:01:15,952](INFO)placeOrder : 得到随机数：5293
+[2019-04-28 21:01:15,953](INFO)placeOrder : 查重...
+[2019-04-28 21:01:15,954](INFO)placeOrder : 未重复，返回
+[2019-04-28 21:01:15,955](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 21:01:15,959](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 5293)
+[2019-04-28 21:01:15,967](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 21:01:15,969](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 21:01:15] "POST /placeOrder?code=081t05rg1Wahjt0cMStg1NvWqg1t05rC&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 21:02:13,040](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 21:02:20,020](INFO)placeOrder : 获得参数code：081OGPce1V8KaA05Ukae1MpNce1OGPcF location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 21:02:20,352](INFO)placeOrder : 换取openid成功
+[2019-04-28 21:02:20,353](INFO)placeOrder : 得到随机数：9097
+[2019-04-28 21:02:20,353](INFO)placeOrder : 查重...
+[2019-04-28 21:02:20,357](INFO)placeOrder : 未重复，返回
+[2019-04-28 21:02:20,358](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 21:02:20,365](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 9097)
+[2019-04-28 21:02:20,374](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 21:02:20,377](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 21:02:20] "POST /placeOrder?code=081OGPce1V8KaA05Ukae1MpNce1OGPcF&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 21:08:11,624](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 21:08:20,749](INFO)placeOrder : 获得参数code：0217YPAU19DRQX0JxBBU1rpOAU17YPA5 location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 21:08:21,013](INFO)placeOrder : 换取openid成功
+[2019-04-28 21:08:21,013](INFO)placeOrder : 得到随机数：4023
+[2019-04-28 21:08:21,014](INFO)placeOrder : 查重...
+[2019-04-28 21:08:21,015](INFO)placeOrder : 未重复，返回
+[2019-04-28 21:08:21,016](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 21:08:21,020](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 4023)
+[2019-04-28 21:08:21,030](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 21:08:21,032](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 21:08:21] "POST /placeOrder?code=0217YPAU19DRQX0JxBBU1rpOAU17YPA5&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 21:09:09,661](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 21:09:19,662](INFO)placeOrder : 获得参数code：0710VNPj1JbYEn08YzSj15TRPj10VNPf location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 21:09:19,970](INFO)placeOrder : 换取openid成功
+[2019-04-28 21:09:19,970](INFO)placeOrder : 得到随机数：5314
+[2019-04-28 21:09:19,971](INFO)placeOrder : 查重...
+[2019-04-28 21:09:19,972](INFO)placeOrder : 未重复，返回
+[2019-04-28 21:09:19,973](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 21:09:19,977](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 5314)
+[2019-04-28 21:09:19,987](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 21:09:19,989](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 21:09:19] "POST /placeOrder?code=0710VNPj1JbYEn08YzSj15TRPj10VNPf&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 21:09:37,537](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 21:09:53,629](INFO)placeOrder : 获得参数code：071ULVh21H4tWP1bIPg21qkYh21ULVh4 location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 21:09:53,961](INFO)placeOrder : 换取openid成功
+[2019-04-28 21:09:53,962](INFO)placeOrder : 得到随机数：9635
+[2019-04-28 21:09:53,962](INFO)placeOrder : 查重...
+[2019-04-28 21:09:53,963](INFO)placeOrder : 未重复，返回
+[2019-04-28 21:09:53,964](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 21:09:53,969](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 9635)
+[2019-04-28 21:09:53,979](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 21:09:53,980](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 21:09:53] "POST /placeOrder?code=071ULVh21H4tWP1bIPg21qkYh21ULVh4&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -
+[2019-04-28 21:10:56,070](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 21:10:57,300](INFO)placeOrder : 获得参数code：071ULVh21H4tWP1bIPg21qkYh21ULVh4 location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 21:10:57,569](ERROR)flask.app : Exception on /placeOrder [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/local/placeOrder_1.py", line 24, in placeOrder
+    thisOrderOpenId = Orders.getOpenId()
+  File "F:\healthyBreakfast\local\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-28 21:10:57,572](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 21:10:57] "POST /placeOrder?code=071ULVh21H4tWP1bIPg21qkYh21ULVh4&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 500 -
+[2019-04-28 21:11:05,549](INFO)placeOrder : 获得参数code：071Uwifq11abRj0P3Igq1SBvfq1UwifN location：1 getTime：1 foodId：1 orderNum：5
+[2019-04-28 21:11:05,887](INFO)placeOrder : 换取openid成功
+[2019-04-28 21:11:05,888](INFO)placeOrder : 得到随机数：104
+[2019-04-28 21:11:05,888](INFO)placeOrder : 查重...
+[2019-04-28 21:11:05,890](INFO)placeOrder : 未重复，返回
+[2019-04-28 21:11:05,891](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-28 21:11:05,910](INFO)placeOrder : 执行sql：update fruitandbreakfast set salesvolume = 14 where id = 1
+[2019-04-28 21:11:05,911](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('1' , 'www.baidu.com' , '1' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 104)
+[2019-04-28 21:11:05,919](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-28 21:11:05,920](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 21:11:05] "POST /placeOrder?code=071Uwifq11abRj0P3Igq1SBvfq1UwifN&location=1&getTime=1&foodId=1&orderNum=5 HTTP/1.1" 200 -

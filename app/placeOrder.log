@@ -1,0 +1,16 @@
+[2019-04-29 22:43:39,499](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-29 22:43:55,245](INFO)werkzeug : 127.0.0.1 - - [29/Apr/2019 22:43:55] "POST /placeOrder HTTP/1.1" 400 -
+[2019-04-29 22:44:50,380](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-29 22:45:19,718](INFO)werkzeug : 127.0.0.1 - - [29/Apr/2019 22:45:19] "POST /placeOrder HTTP/1.1" 400 -
+[2019-04-29 22:46:08,207](INFO)werkzeug : 127.0.0.1 - - [29/Apr/2019 22:46:08] "POST /placeOrder HTTP/1.1" 400 -
+[2019-04-29 22:47:46,367](INFO)werkzeug : 127.0.0.1 - - [29/Apr/2019 22:47:46] "POST /placeOrder HTTP/1.1" 400 -
+[2019-04-29 22:50:03,665](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-29 22:50:07,085](INFO)placeOrder : 获得参数code：0610KkX41BUQ5S1pdTX41EkgX410KkXB location：2 getTime：8 foodId：2
+[2019-04-29 22:50:07,394](INFO)placeOrder : 换取openid成功
+[2019-04-29 22:50:07,394](INFO)placeOrder : 得到随机数：8192
+[2019-04-29 22:50:07,394](INFO)placeOrder : 查重...
+[2019-04-29 22:50:07,398](INFO)placeOrder : 未重复，返回
+[2019-04-29 22:50:07,398](INFO)placeOrder : 拿foodId抓取图片
+[2019-04-29 22:50:07,403](INFO)placeOrder : 执行sql：insert into orderform (location , picture , gettime , openId , randomnum) values ('2' , 'www.baidu.com' , '8' , 'ogQH25SmMVHvcBInksg7NkNVYTF4' , 8192)
+[2019-04-29 22:50:07,408](INFO)placeOrder : 下单成功 ，返回200
+[2019-04-29 22:50:07,410](INFO)werkzeug : 127.0.0.1 - - [29/Apr/2019 22:50:07] "POST /placeOrder HTTP/1.1" 200 -

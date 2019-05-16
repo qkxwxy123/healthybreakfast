@@ -1,0 +1,29 @@
+[2019-04-27 23:54:56,123](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-27 23:56:38,515](ERROR)flask.app : Exception on /queryFruitAndBreakfast [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/app/queryFruitAndBreakfast.py", line 12, in queryFruitAndBreakfast
+    foodName = str(request.json['foodName'])
+TypeError: 'NoneType' object is not subscriptable
+[2019-04-27 23:56:38,520](INFO)werkzeug : 127.0.0.1 - - [27/Apr/2019 23:56:38] "GET /queryFruitAndBreakfast?foodName=苹 HTTP/1.1" 500 -
+[2019-04-28 19:20:40,189](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-28 19:20:54,665](INFO)queryFruitAndBreakfast : 传入查询参数pageSize :10
+[2019-04-28 19:20:54,669](INFO)queryFruitAndBreakfast : 传入查询参数pageNo :1
+[2019-04-28 19:20:54,670](INFO)queryFruitAndBreakfast : 得到参数foodName：苹
+[2019-04-28 19:20:54,670](INFO)queryFruitAndBreakfast : 执行sql:select * from fruitAndBreakfast where foodname like '%苹%' limit 0,10
+[2019-04-28 19:20:54,704](INFO)queryFruitAndBreakfast : 尝试抓取查询数据
+[2019-04-28 19:20:54,705](INFO)queryFruitAndBreakfast : 抓取成功
+[2019-04-28 19:20:54,705](INFO)queryFruitAndBreakfast : 成功执行并返回
+[2019-04-28 19:20:54,707](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 19:20:54] "GET /queryFruitAndBreakfast?foodName=苹 HTTP/1.1" 200 -
+[2019-04-28 19:20:54,855](INFO)werkzeug : 127.0.0.1 - - [28/Apr/2019 19:20:54] "GET /favicon.ico HTTP/1.1" 404 -

@@ -1,0 +1,218 @@
+[2019-04-20 14:35:12,207](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:37:49,665](ERROR)flask.app : Exception on /querySetMeal [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-20 14:37:49,665](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:37:49] "GET /querySetMeal HTTP/1.1" 500 -
+[2019-04-20 14:38:39,753](ERROR)flask.app : Exception on /querySetMeal [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-20 14:38:39,753](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:38:39] "GET /querySetMeal HTTP/1.1" 500 -
+[2019-04-20 14:40:35,320](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:40:37,078](ERROR)flask.app : Exception on /querySetMeal [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-20 14:40:37,082](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:40:37] "GET /querySetMeal HTTP/1.1" 500 -
+[2019-04-20 14:40:52,514](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:40:53,778](ERROR)flask.app : Exception on /querySetMeal [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-20 14:40:53,782](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:40:53] "GET /querySetMeal HTTP/1.1" 500 -
+[2019-04-20 14:41:19,592](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:41:20,750](ERROR)flask.app : Exception on /querySetMeal [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-20 14:41:20,754](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:41:20] "GET /querySetMeal HTTP/1.1" 500 -
+[2019-04-20 14:41:43,634](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:41:45,262](ERROR)flask.app : Exception on /querySetMeal [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-20 14:41:45,262](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:41:45] "GET /querySetMeal HTTP/1.1" 500 -
+[2019-04-20 14:42:11,841](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:42:13,494](ERROR)flask.app : Exception on /querySetMeal [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-20 14:42:13,494](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:42:13] "GET /querySetMeal HTTP/1.1" 500 -
+[2019-04-20 14:42:32,870](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:42:34,255](ERROR)flask.app : Exception on /querySetMeal [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-20 14:42:34,260](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:42:34] "GET /querySetMeal HTTP/1.1" 500 -
+[2019-04-20 14:42:53,962](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:42:55,675](ERROR)flask.app : Exception on /querySetMeal [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-20 14:42:55,679](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:42:55] "GET /querySetMeal HTTP/1.1" 500 -
+[2019-04-20 14:43:49,737](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:43:51,196](ERROR)flask.app : Exception on /querySetMeal [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-20 14:43:51,200](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:43:51] "GET /querySetMeal HTTP/1.1" 500 -
+[2019-04-20 14:44:07,113](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:44:08,395](ERROR)flask.app : Exception on /querySetMeal [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-20 14:44:08,399](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:44:08] "GET /querySetMeal HTTP/1.1" 500 -
+[2019-04-20 14:44:30,104](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:44:31,128](ERROR)flask.app : Exception on /querySetMeal [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-20 14:44:31,128](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:44:31] "GET /querySetMeal HTTP/1.1" 500 -
+[2019-04-20 14:44:41,512](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:44:43,064](ERROR)flask.app : Exception on /querySetMeal [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-20 14:44:43,064](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:44:43] "GET /querySetMeal HTTP/1.1" 500 -
+[2019-04-20 14:45:07,853](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:45:09,148](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:45:09] "GET /querySetMeal HTTP/1.1" 200 -
+[2019-04-20 14:49:00,162](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:49:03,071](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:49:03] "GET /querySetMeal HTTP/1.1" 200 -
+[2019-04-20 14:49:31,922](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 14:49:39,135](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 14:49:39] "GET /querySetMeal HTTP/1.1" 200 -
+[2019-04-20 15:38:36,512](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-20 15:38:40,203](INFO)querySetMeal : 获取参数pageNo...
+[2019-04-20 15:38:40,203](INFO)querySetMeal : 未获得参数pageNo ， 赋值为1
+[2019-04-20 15:38:40,207](INFO)querySetMeal : 未获得参数pageSize ， 赋值为10
+[2019-04-20 15:38:40,211](INFO)querySetMeal : 尝试执行sql语句select * from setmeal limit 0 , 10
+[2019-04-20 15:38:40,211](INFO)querySetMeal : 执行成功,尝试抓取数据
+[2019-04-20 15:38:40,215](INFO)querySetMeal : 抓取成功
+[2019-04-20 15:38:40,231](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-04-20 15:38:40,231](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-04-20 15:38:40,231](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-04-20 15:38:40,235](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-04-20 15:38:40,235](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-04-20 15:38:40,239](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-04-20 15:38:40,243](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-04-20 15:38:40,243](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-04-20 15:38:40,243](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-04-20 15:38:40,247](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-04-20 15:38:40,247](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-04-20 15:38:40,251](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-04-20 15:38:40,251](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 4
+[2019-04-20 15:38:40,255](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-04-20 15:38:40,255](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-04-20 15:38:40,259](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 5
+[2019-04-20 15:38:40,259](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-04-20 15:38:40,259](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-04-20 15:38:40,263](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-04-20 15:38:40,263](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-04-20 15:38:40,263](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-04-20 15:38:40,267](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-04-20 15:38:40,267](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-04-20 15:38:40,271](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-04-20 15:38:40,271](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-04-20 15:38:40,275](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-04-20 15:38:40,275](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-04-20 15:38:40,279](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 3
+[2019-04-20 15:38:40,279](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-04-20 15:38:40,279](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-04-20 15:38:40,283](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 2
+[2019-04-20 15:38:40,283](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-04-20 15:38:40,283](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-04-20 15:38:40,287](INFO)querySetMeal : 尝试执行sql语句select * from fruitandbreakfast where id = 1
+[2019-04-20 15:38:40,287](INFO)querySetMeal : 执行成功，尝试抓取数据
+[2019-04-20 15:38:40,287](INFO)querySetMeal : 数据抓取成功，解析数据
+[2019-04-20 15:38:40,291](INFO)werkzeug : 127.0.0.1 - - [20/Apr/2019 15:38:40] "GET /querySetMeal HTTP/1.1" 200 -

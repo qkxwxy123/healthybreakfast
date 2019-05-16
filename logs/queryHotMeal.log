@@ -1,0 +1,20 @@
+[2019-04-19 16:12:16,921](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-19 16:12:24,544](INFO)queryHotMeal : 尝试得到参数pageNo
+[2019-04-19 16:12:24,544](INFO)queryHotMeal : 未得到参数pageNo，赋值为1
+[2019-04-19 16:12:24,544](INFO)queryHotMeal : 尝试得到参数pageSize
+[2019-04-19 16:12:24,544](INFO)queryHotMeal : 未得到参数pageSize ， 赋值为10
+[2019-04-19 16:12:24,544](INFO)queryHotMeal : sql语句为：select * from fruitandbreakfast order by salesvolume desc limit 0 , 10
+[2019-04-19 16:12:24,548](INFO)queryHotMeal : 尝试执行sql语句
+[2019-04-19 16:12:24,548](INFO)queryHotMeal : 执行成功，进行数据抓取
+[2019-04-19 16:12:24,548](INFO)queryHotMeal : 数据抓取成功
+[2019-04-19 16:12:24,548](INFO)werkzeug : 127.0.0.1 - - [19/Apr/2019 16:12:24] "GET /queryHotMeal HTTP/1.1" 200 -
+[2019-04-19 16:12:56,928](INFO)queryHotMeal : 尝试得到参数pageNo
+[2019-04-19 16:12:56,932](INFO)queryHotMeal : 得到参数pageNo :2
+[2019-04-19 16:12:56,932](INFO)queryHotMeal : 尝试得到参数pageSize
+[2019-04-19 16:12:56,932](INFO)queryHotMeal : 未得到参数pageSize ， 赋值为10
+[2019-04-19 16:12:56,932](INFO)queryHotMeal : sql语句为：select * from fruitandbreakfast order by salesvolume desc limit 10 , 10
+[2019-04-19 16:12:56,936](INFO)queryHotMeal : 尝试执行sql语句
+[2019-04-19 16:12:56,936](INFO)queryHotMeal : 执行成功，进行数据抓取
+[2019-04-19 16:12:56,936](INFO)queryHotMeal : 数据抓取成功
+[2019-04-19 16:12:56,936](INFO)werkzeug : 127.0.0.1 - - [19/Apr/2019 16:12:56] "GET /queryHotMeal?pageNo=2 HTTP/1.1" 200 -
+[2019-04-19 16:30:21,505](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

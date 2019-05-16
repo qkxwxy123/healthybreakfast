@@ -1,0 +1,314 @@
+[2019-04-25 19:11:05,298](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 19:11:49,578](ERROR)flask.app : Exception on /addSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/selfLocation.py", line 19, in addSelfLocation
+    thisOpenId = l_object.getOpenId()
+  File "F:\healthyBreakfast\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-25 19:11:49,582](INFO)werkzeug : 127.0.0.1 - - [25/Apr/2019 19:11:49] "POST /addSelfLocation?dayOfWeek=1&location=2&code=23 HTTP/1.1" 500 -
+[2019-04-25 19:22:15,386](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 19:33:25,686](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 19:40:27,514](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 19:51:35,186](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-25 19:51:37,585](ERROR)flask.app : Exception on /addSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/selfLocation.py", line 19, in addSelfLocation
+    thisOpenId = l_object.getOpenId()
+  File "F:\healthyBreakfast\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-25 19:51:37,591](INFO)werkzeug : 127.0.0.1 - - [25/Apr/2019 19:51:37] "POST /addSelfLocation?dayOfWeek=1&location=2&code=0119KFmP1bQ2E91v1XnP1kWUmP19KFmm HTTP/1.1" 500 -
+[2019-04-25 19:53:52,826](ERROR)flask.app : Exception on /addSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/selfLocation.py", line 19, in addSelfLocation
+    thisOpenId = l_object.getOpenId()
+  File "F:\healthyBreakfast\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-25 19:53:52,828](INFO)werkzeug : 127.0.0.1 - - [25/Apr/2019 19:53:52] "POST /addSelfLocation?dayOfWeek=1&location=2&code=0119KFmP1bQ2E91v1XnP1kWUmP19KFmm HTTP/1.1" 500 -
+[2019-04-26 15:39:51,732](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 16:55:10,045](ERROR)flask.app : Exception on /addSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-26 16:55:10,062](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 16:55:10] "POST /addSelfLocation?dayOfWeek=1&location=2&code=081lXIxZ1DsIyS0qJDvZ18nAxZ1lXIxi HTTP/1.1" 500 -
+[2019-04-26 16:57:19,371](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 16:57:22,299](ERROR)flask.app : Exception on /addSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/selfLocation.py", line 18, in addSelfLocation
+    thisOpenId = l_object.getOpenId()
+  File "F:\healthyBreakfast\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-26 16:57:22,314](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 16:57:22] "POST /addSelfLocation?dayOfWeek=1&location=2&code=081lXIxZ1DsIyS0qJDvZ18nAxZ1lXIxi HTTP/1.1" 500 -
+[2019-04-26 16:58:16,739](ERROR)flask.app : Exception on /addSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-26 16:58:16,742](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 16:58:16] "POST /addSelfLocation?dayOfWeek=1&location=2&code=0112iMi12AMSrV0uj1g12Okri122iMiK HTTP/1.1" 500 -
+[2019-04-26 16:59:33,285](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 16:59:41,282](ERROR)flask.app : Exception on /addSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-26 16:59:41,295](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 16:59:41] "POST /addSelfLocation?dayOfWeek=1&location=2&code=0816k5ig1BRuur0PeGkg1Rv9ig16k5ie HTTP/1.1" 500 -
+[2019-04-26 17:00:23,463](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 17:00:27,685](ERROR)flask.app : Exception on /addSelfLocation [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/selfLocation.py", line 18, in addSelfLocation
+    thisOpenId = l_object.getOpenId()
+  File "F:\healthyBreakfast\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-26 17:00:27,698](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:00:27] "GET /addSelfLocation?dayOfWeek=1&location=2&code=0816k5ig1BRuur0PeGkg1Rv9ig16k5ie HTTP/1.1" 500 -
+[2019-04-26 17:01:18,915](ERROR)flask.app : Exception on /addSelfLocation [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-26 17:01:18,919](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:01:18] "GET /addSelfLocation?dayOfWeek=1&location=2&code=021Ykt3T1V9mX51pqu3T1eaw3T1Ykt3q HTTP/1.1" 500 -
+[2019-04-26 17:04:14,280](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 17:04:19,800](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:04:19] "GET /addSelfLocation?dayOfWeek=1&location=2&code=061GUBRb1kLPPx0wNNNb1vAIRb1GUBRH HTTP/1.1" 200 -
+[2019-04-26 17:04:55,311](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:04:55] "POST /addSelfLocation?dayOfWeek=1&location=2&code=081xqSKS1wX1X31A2YMS1mGRKS1xqSKN HTTP/1.1" 405 -
+[2019-04-26 17:05:07,625](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 17:05:09,582](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:05:09] "POST /addSelfLocation?dayOfWeek=1&location=2&code=081xqSKS1wX1X31A2YMS1mGRKS1xqSKN HTTP/1.1" 200 -
+[2019-04-26 17:09:34,575](ERROR)flask.app : Exception on /deleteSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-26 17:09:34,586](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:09:34] "POST /deleteSelfLocation?dayOfWeek=1&location=2&code=01186tqv0uOB6j1jednv03osqv086tqJ HTTP/1.1" 500 -
+[2019-04-26 17:10:52,422](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 17:11:02,231](ERROR)flask.app : Exception on /deleteSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/selfLocation.py", line 62, in deleteSelfLocation
+    prrint(sql)
+NameError: name 'prrint' is not defined
+[2019-04-26 17:11:02,243](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:11:02] "POST /deleteSelfLocation?dayOfWeek=1&location=2&code=071uBPWE0g8lbd2YMRWE0B6KWE0uBPW5 HTTP/1.1" 500 -
+[2019-04-26 17:14:57,748](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 17:15:18,625](ERROR)flask.app : Exception on /deleteSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/selfLocation.py", line 56, in deleteSelfLocation
+    thisOpenId = l_object.getOpenId()
+  File "F:\healthyBreakfast\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-26 17:15:18,639](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:15:18] "POST /deleteSelfLocation?dayOfWeek=1&location=2&code=071uBPWE0g8lbd2YMRWE0B6KWE0uBPW5 HTTP/1.1" 500 -
+[2019-04-26 17:18:54,941](ERROR)flask.app : Exception on /deleteSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-26 17:18:54,946](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:18:54] "POST /deleteSelfLocation?dayOfWeek=1&location=2&code=0616N7FU1y2dkX0YhCEU1Ml0FU16N7Ff HTTP/1.1" 500 -
+[2019-04-26 17:20:16,482](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 17:20:22,788](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:20:22] "POST /deleteSelfLocation?dayOfWeek=1&location=2&code=011f9zPA0r9aAh2OJRQA0pyxPA0f9zPT HTTP/1.1" 200 -
+[2019-04-26 17:25:07,188](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 17:25:16,948](ERROR)flask.app : Exception on /querySelfLocation [GET]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-26 17:25:16,960](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:25:16] "GET /querySelfLocation?code=06112lk32l1JYO0ZBYk32iptk3212lkx HTTP/1.1" 500 -
+[2019-04-26 17:25:41,296](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 17:26:08,738](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:26:08] "GET /querySelfLocation?code=001Bd2280G6IfG19Ah180qp4280Bd228 HTTP/1.1" 200 -
+[2019-04-26 17:27:40,507](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:27:40] "GET /querySelfLocation?code=061zzcDE1Bycy704GGFE1aU5DE1zzcDV HTTP/1.1" 200 -
+[2019-04-26 17:29:27,760](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:29:27] "GET /changeSelfLocation?dayOfWeek=3&location=4&code=061C5SEe00zJ1t1f7ZEe0uWTEe0C5SED HTTP/1.1" 405 -
+[2019-04-26 17:29:36,163](ERROR)flask.app : Exception on /changeSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-26 17:29:36,171](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:29:36] "POST /changeSelfLocation?dayOfWeek=3&location=4&code=061C5SEe00zJ1t1f7ZEe0uWTEe0C5SED HTTP/1.1" 500 -
+[2019-04-26 17:30:20,211](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 17:30:33,406](ERROR)flask.app : Exception on /changeSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-04-26 17:30:33,413](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:30:33] "POST /changeSelfLocation?dayOfWeek=3&location=4&code=011W6OKp05R1vm1UeNHp0vpHKp0W6OK5 HTTP/1.1" 500 -
+[2019-04-26 17:31:49,105](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 17:31:54,188](ERROR)flask.app : Exception on /changeSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/selfLocation.py", line 132, in changeSelfLocation
+    thisOpenId = c_object.getOpenId()
+  File "F:\healthyBreakfast\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-26 17:31:54,204](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:31:54] "POST /changeSelfLocation?dayOfWeek=2&location=4&code=011W6OKp05R1vm1UeNHp0vpHKp0W6OK5 HTTP/1.1" 500 -
+[2019-04-26 17:32:20,886](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:32:20] "POST /changeSelfLocation?dayOfWeek=2&location=4&code=061lQHcu1EHdRf0XUedu10xmcu1lQHcp HTTP/1.1" 200 -
+[2019-04-26 17:46:01,796](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2019-04-26 17:46:04,613](INFO)root : 获取参数dayOfWeek：2 location:4 code:061lQHcu1EHdRf0XUedu10xmcu1lQHcp
+[2019-04-26 17:46:05,122](ERROR)flask.app : Exception on /changeSelfLocation [POST]
+Traceback (most recent call last):
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\healthyBreakfast\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/healthyBreakfast/selfLocation.py", line 175, in changeSelfLocation
+    thisOpenId = c_object.getOpenId()
+  File "F:\healthyBreakfast\getOpenID.py", line 16, in getOpenId
+    openid = r.json()['openid']
+KeyError: 'openid'
+[2019-04-26 17:46:05,137](INFO)werkzeug : 127.0.0.1 - - [26/Apr/2019 17:46:05] "POST /changeSelfLocation?dayOfWeek=2&location=4&code=061lQHcu1EHdRf0XUedu10xmcu1lQHcp HTTP/1.1" 500 -
