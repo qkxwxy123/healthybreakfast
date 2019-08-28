@@ -9,4 +9,4 @@ public==2019.4.13
 PyMySQL==0.9.3
 query-string==2019.4.13
 request==2019.4.13
-Werkzeug==0.15.2
+Werkzeug==0.15.3
